@@ -1,0 +1,44 @@
+* {
+	font-family: "Lucida Grande";
+}
+
+#gameContainer {
+	background-color: #FFF024;
+	padding: 5px;
+	padding-bottom: 10px;
+	width: 440px;
+	height: 360px;
+}
+
+.column {
+	width: 56px;
+	padding: 3px;
+	float: left;
+}
+
+.column:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+
+.circle {
+	border-radius: 50%;
+	margin: 3px;
+	width: 54px;
+	height: 54px;
+	display: inline-block;
+}
+
+#startGame {
+	width: 120px;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#startGame:hover {
+	color: red;
+	cursor: pointer;
+}
